@@ -32,6 +32,7 @@ Key Workflow Actions:
  OIDC Authentication
 
 Instead of using static AWS credentials, we use OIDC authentication for secure access. The OIDC provider allows GitHub Actions to assume an AWS IAM role using web identity federation. This eliminates the need for long-term credentials, enhancing security.
+Lastly, go to the Action tab, select create new workflow option. Copy and paste the go_deploy.yml code in the space provided and commit the change. 
 
 In the GitHub repository:
 
